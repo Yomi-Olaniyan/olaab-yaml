@@ -11,7 +11,7 @@ Resources:
       InstanceType: t2.micro
       Tags:
         - Key: Name
-          Value: olaab-server
+          Value: my-server
       Monitoring: true
       SecurityGroupIds:
         - sg-0d9834d5b7f2f2d57
@@ -22,7 +22,7 @@ Resources:
           sudo yum install -y httpd
           sudo systemctl start httpd
           sudo systemctl enable httpd
-          sudo echo "Hello Trinity Server" > /var/www/html/index.html  
+          sudo echo "O'LAB is Cloud/DevOps Engineer with a solid background in RF Optimization" > /var/www/html/index.html  
       
 Outputs:
   outputolaabEC2Instance:
